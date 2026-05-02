@@ -4,10 +4,10 @@ name: First CI Pipeline Project - Simple maven
 
 on:
     push:
-        branches: [feature-janie, main]
+        branches: [feature-janie, master]
 
     pull_request:
-        branches: [main]
+        branches: [master]
 
 jobs:
     build-job: 
